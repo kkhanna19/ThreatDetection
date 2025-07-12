@@ -7,8 +7,8 @@ public class DatabaseSaver {
     public static void insertSuspiciousIP(String ip, int failedAttempts) {
         // Database details
         String url = "jdbc:mysql://localhost:3306/threatdb";
-        String user = "root";             // 🔁 Replace with your MySQL username
-        String password = "root"; // 🔁 Replace with your MySQL password
+        String user = "root";
+        String password = "root";
 
         try {
             // Load MySQL JDBC driver
