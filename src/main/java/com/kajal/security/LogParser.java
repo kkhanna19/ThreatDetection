@@ -47,7 +47,7 @@ public class LogParser {
 
                     System.out.println("IP: " + ip + " → Failed Attempts: " + attempts);
 
-                    // ✅ Save to MySQL database
+//                    Save to MySQL database
                     DatabaseSaver.insertSuspiciousIP(ip, attempts);
                 }
             }
