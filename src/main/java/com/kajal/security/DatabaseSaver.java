@@ -4,6 +4,7 @@ import java.sql.*;
 
 public class DatabaseSaver {
 
+    //connect to database
     public static void insertSuspiciousIP(String ip, int failedAttempts) {
         // Database details
         String url = "jdbc:mysql://localhost:3306/threatdb";
